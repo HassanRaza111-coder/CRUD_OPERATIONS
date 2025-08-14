@@ -1,0 +1,189 @@
+/* Global Styles */
+body {
+    color: #444;
+    background: #f4f6f8;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Table Wrapper */
+.table-wrapper {
+    background: #fff;
+    padding: 25px 30px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.table-title {        
+  padding-bottom: 15px;
+  background: linear-gradient(40deg, #4f46e5, #06b6d4) !important; /* Gradient from first CSS */
+  color: #fff;
+  padding: 16px 30px;
+  margin: -20px -25px 10px;
+  border-radius: 10px 10px 0 0; /* Softer rounded corners */
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2); /* Stylish bottom border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Softer modern shadow */
+}
+
+.table-title h2 {
+  margin: 5px 0 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-title .btn-group {
+  float: right;
+}
+
+.table-title .btn {
+  color: #fff;
+  float: right;
+  font-size: 13px;
+  border: none;
+  min-width: 50px;
+  border-radius: 6px; /* Rounded button edges */
+  outline: none !important;
+  margin-left: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Button shadow */
+  background: rgba(255, 255, 255, 0.15); /* Transparent white button */
+  transition: all 0.3s ease;
+}
+
+.table-title .btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.table-title .btn i {
+  float: left;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.table-title .btn span {
+  float: left;
+  margin-top: 2px;
+}
+
+
+/* Table */
+table.table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+table.table th, table.table td {
+    padding: 14px 16px;
+    vertical-align: middle;
+    background: #fff;
+    border: none;
+}
+
+table.table thead th {
+    background: #f8fafc;
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+}
+
+table.table tbody tr {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+table.table tbody tr:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+/* Action Buttons */
+table.table td a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+table.table td a.edit {
+    color: #3b82f6;
+    background: rgba(59, 130, 246, 0.1);
+}
+
+table.table td a.edit:hover {
+    background: rgba(59, 130, 246, 0.2);
+}
+
+table.table td a.delete {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+}
+
+table.table td a.delete:hover {
+    background: rgba(239, 68, 68, 0.2);
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 6px;
+}
+
+.pagination li a {
+    font-size: 14px;
+    color: #666;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.pagination li a:hover {
+    background: #f1f5f9;
+}
+
+.pagination li.active a {
+    background: #4f46e5;
+    color: #fff;
+}
+
+/* Modal */
+.modal .modal-dialog {
+    max-width: 420px;
+}
+
+.modal .modal-content {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+.modal .modal-header {
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    color: #fff;
+    border-radius: 12px 12px 0 0;
+}
+
+.modal .btn {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.modal .btn-primary {
+    background: #4f46e5;
+    border: none;
+}
+
+.modal .btn-primary:hover {
+    background: #4338ca;
+}
